@@ -1,0 +1,21 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+@import "_reset";
+@import "_page";
+@import "_fonts";
+
+
+@import "_other.scss";  
+
+@import "_min-768.scss";
+@import "_min-992.scss";
+@import "_min-1170.scss";
+
+@import "_max-767.scss";
+@import "_max-667.scss";
+@import "_max-375.scss";
+  

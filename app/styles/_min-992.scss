@@ -1,0 +1,65 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (min-width: 992px) {
+
+  .login-page {
+
+    .main {
+      padding: 4.9rem 0;
+    }
+
+    .column-left  {      
+      justify-content: center;
+    }
+
+    .column {
+      border-right: none;   
+      position: relative;
+      height: 460px;
+      display: flex; 
+      padding-top: 0;
+      padding-bottom: 0;     
+
+      &:first-child {
+        border-right: 1px solid #333c42;
+        border-bottom: none;
+      }
+
+    }
+
+    .column-right {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap:wrap;
+    }
+
+    .form-link {      
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    
+    }
+
+  }
+
+  .name-block {   
+    margin: 2rem auto 2rem 0; 
+  }
+
+  .info-block {
+    flex-direction: column;
+    margin-top: 30px;   
+
+  }  
+
+  .value-block {
+
+     &:last-child {
+    margin-left: 0;
+   }
+
+  }    
+
+  
+}
