@@ -1,0 +1,13 @@
+$icon-font-path: '../fonts/';
+
+@media only screen and (max-width: 736px) {
+
+ .value-block {
+
+ 	&:last-child {
+ 		margin-top: 20px;
+ 	}
+ }
+
+  
+}

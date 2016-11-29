@@ -5,8 +5,11 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @import "_reset";
-@import "_page";
 @import "_fonts";
+@import "_page";
+@import "_not-found";
+@import "_login-form-page";
+
 
 
 @import "_other.scss";  
@@ -16,6 +19,8 @@ $icon-font-path: '../fonts/';
 @import "_min-1170.scss";
 
 @import "_max-767.scss";
+@import "_max-736.scss";
 @import "_max-667.scss";
+@import "_max-414.scss";
 @import "_max-375.scss";
   

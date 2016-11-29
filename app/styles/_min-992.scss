@@ -18,7 +18,9 @@ $icon-font-path: '../fonts/';
       height: 460px;
       display: flex; 
       padding-top: 0;
-      padding-bottom: 0;     
+      padding-bottom: 0;
+      padding-top: 2.9rem;
+      padding-bottom: 2.9rem;      
 
       &:first-child {
         border-right: 1px solid #333c42;
@@ -47,19 +49,51 @@ $icon-font-path: '../fonts/';
     margin: 2rem auto 2rem 0; 
   }
 
-  .info-block {
-    flex-direction: column;
-    margin-top: 30px;   
+  
 
+  .pageblock {
+
+  .form-link {
+    position: static;
+    margin: 0 auto;
+    transform: translateX(0);
+  }
+
+}
+
+.form-wrap { 
+
+  &:last-child {    
+    padding-top: 20px;
+  }
+
+} 
+
+//  NOT-FOUND
+
+.not-found {
+
+  .column-right {
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+//LOGIN-FORM-PAGE
+
+.login-form-page { 
+
+  .column {
+    height: auto; 
+
+    &:first-child {
+      border-right: none;
+    }
+    
   }  
 
-  .value-block {
-
-     &:last-child {
-    margin-left: 0;
-   }
-
-  }    
+}
 
   
 }

@@ -35,6 +35,7 @@ body {
 	background: #242f35;
 	color: #fff;
 
+
 	.column-left  {
       align-items: center;      
     }	
@@ -43,7 +44,7 @@ body {
 	.column-right {		
 
 		form {
-			display: flex;
+			//display: flex;
 			justify-content: space-between;
 			margin: 3.4rem 0 2.5rem 0;
 			width: 100%;
@@ -64,6 +65,10 @@ body {
 		color: #898d90;
 		text-align: center;
 	}
+
+	.form-wrap {
+		text-align: left;
+	}	
 
 	form {
 		text-align: center;
@@ -151,15 +156,10 @@ body {
 }
 
 	.info-block {
-		display: flex;
+		//display: flex;
+		width: 100%;
 	}
 
-
-
-.value-block{
-	
-
-}
 
 .info-text {
 	display: block;
@@ -181,7 +181,7 @@ body {
 	height: 150px;
 	display: flex;
 	align-items:center;
-	justify-content: center;
+	justify-content: center;	
 }
 
 .copyright {

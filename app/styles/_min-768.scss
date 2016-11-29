@@ -18,8 +18,8 @@ $icon-font-path: '../fonts/';
 			position: relative;
 			height: auto;
 			display: flex;
-			padding-top: 4.9rem;
-			padding-bottom: 4.9rem;	
+			padding-top: 2.9rem;
+			padding-bottom: 2.9rem;	
 		
 
 			&:first-child {
@@ -45,21 +45,24 @@ $icon-font-path: '../fonts/';
   } 
 
   .name-block {	
-		margin: 2rem 0 2rem 0;	
+		margin: 2rem auto 2rem 0;	
 	}
 
- 	.info-block {
-	  flex-direction: row;
-	  margin-top: 0; 
+	//LOGIN-FORM-PAGE
 
-	} 
+.login-form-page { 
 
-	 .value-block {
+  .column {
+  	padding-top: 4.9rem;
+    padding-bottom: 4.9rem;
 
-     &:last-child {
-    	margin-left: 3rem;
-   }
+    &:first-child {
+      border-right: none;
+      border-bottom: none;
+    }
+    
+  }  
 
-  }    
+}	
   
 }

@@ -18,8 +18,8 @@ $icon-font-path: '../fonts/';
 			position: relative;
 			height: auto;
 			display: flex;
-			padding-top: 4.9rem;
-			padding-bottom: 4.9rem;		
+			padding-top: 2.9rem;
+			padding-bottom: 2.9rem;		
 		
 
 			&:first-child {
@@ -49,19 +49,44 @@ $icon-font-path: '../fonts/';
 		margin: 2rem 0 2rem 0;	
 	}
 
-	.info-block {
-	  flex-direction: row;
-	  margin-top: 0; 
+	.form-wrap {
+  
 
-	} 
+  &:last-child {
+    float: right;
+    padding-top: 20px;
+  }
+  
+} 
 
-	 .value-block {
+//  NOT-FOUND
 
-     &:last-child {
-    	margin-left: 3rem;
-   }
+	.not-found {
 
-  }    
+	  .column-right {
+	    align-items: center;
+	    justify-content: center;
+	  }
+
+	}
+
+//LOGIN-FORM-PAGE
+
+.login-form-page { 
+
+  .column {
+    height: auto; 
+    padding-top: 4.9rem;
+    padding-bottom: 4.9rem;
+
+    &:first-child {
+      border-right: none;
+      border-bottom: none;
+    }
+    
+  }  
+
+}	
    
   
 }
