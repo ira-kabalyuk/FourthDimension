@@ -46,7 +46,7 @@ $icon-font-path: '../fonts/';
   } 
 
   .name-block {	
-		margin: 2rem 0 2rem 0;	
+		margin: 0 0 2rem 0;	
 	}
 
 	.form-wrap {
@@ -62,17 +62,18 @@ $icon-font-path: '../fonts/';
 //  NOT-FOUND
 
 	.not-found {
-
+		
 	  .column-right {
 	    align-items: center;
 	    justify-content: center;
-	  }
+	  }	 
 
 	}
 
 //LOGIN-FORM-PAGE
 
-.login-form-page { 
+.login-form-page {
+	height: auto; 
 
   .column {
     height: auto; 
@@ -84,7 +85,11 @@ $icon-font-path: '../fonts/';
       border-bottom: none;
     }
     
-  }  
+  } 
+
+  .footer {
+  	position: static;
+  } 
 
 }	
    

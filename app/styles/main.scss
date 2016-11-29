@@ -10,13 +10,11 @@ $icon-font-path: '../fonts/';
 @import "_not-found";
 @import "_login-form-page";
 
-
-
-@import "_other.scss";  
+@import "_other.scss";
 
 @import "_min-768.scss";
 @import "_min-992.scss";
-@import "_min-1170.scss";
+@import "_min-1200.scss";
 
 @import "_max-767.scss";
 @import "_max-736.scss";

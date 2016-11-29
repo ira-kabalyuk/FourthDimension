@@ -19,8 +19,8 @@ $icon-font-path: '../fonts/';
       display: flex; 
       padding-top: 0;
       padding-bottom: 0;
-      padding-top: 2.9rem;
-      padding-bottom: 2.9rem;      
+      padding-top: 1.9rem;
+      padding-bottom: 1.9rem;      
 
       &:first-child {
         border-right: 1px solid #333c42;
@@ -46,7 +46,7 @@ $icon-font-path: '../fonts/';
   }
 
   .name-block {   
-    margin: 2rem auto 2rem 0; 
+    margin: 0 auto 2rem 0; 
   }
 
   
@@ -79,6 +79,18 @@ $icon-font-path: '../fonts/';
   }
 
 }
+
+// not-found
+
+  .not-found {
+  height: auto;
+
+  .footer { 
+    position: static;    
+  }
+  
+}
+
 
 //LOGIN-FORM-PAGE
 
