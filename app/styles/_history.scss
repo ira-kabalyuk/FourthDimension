@@ -1,0 +1,52 @@
+$icon-font-path: '../fonts/';
+
+.history {	
+	color: #fff;
+	font-size: 12px;
+
+	.table-btn {
+		padding: 15px 48px;
+	}
+
+
+	table {
+		width: 100%;
+		margin-top: 32px;
+
+	}
+
+	.table-heading {
+		font-weight: bold;
+		border-bottom: 1px solid #333c42;		
+	}
+
+	tr {
+		height: 60px;		
+
+		&:nth-child(2n+1) {
+			background: #29353c;
+		}
+
+		&:nth-child(1) {
+			background: #242f35;
+		}
+
+	}
+
+	td {
+		vertical-align: middle;
+		padding: 0 20px;
+		width: 25%;
+
+		span {			
+			
+			&:last-child {
+				color: #808080;
+				padding-left: 12px;
+			}
+
+		}
+
+	}
+
+}
